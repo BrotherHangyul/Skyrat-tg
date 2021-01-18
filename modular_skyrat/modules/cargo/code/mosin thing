@@ -1,0 +1,21 @@
+https://github.com/Skyrat-SS13/Skyrat-tg/pull/<!--PR Number-->
+
+## Title: Adds Surplus Rifles to the Supply Console
+
+MODULE ID: A_surplus
+
+### Description: Adds mosin-nagants to the Armoury tab of the supply console as a budget weapon for security. Security's been nerfed alot so this is essentially just something they can order now.
+
+
+/datum/supply_pack/security/armory/mosin
+    name = "Surplus Armoury Crate"
+    desc = "Contains three budget Mosin-Nagants, chambered in 7.62. Perfect for cheap warfare, or when the shuttle vote is too democratic."
+    cost = CARGO_CRATE_VALUE * 15
+    contains = list(/obj/item/gun/ballistic/rifle/boltaction,
+                    /obj/item/gun/ballistic/rifle/boltaction,
+                    /obj/item/gun/ballistic/rifle/boltaction)
+    crate_name = "surplus armoury crate"
+
+Nothing else was touched or edited.
+
+Just added an ew thing.
